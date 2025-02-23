@@ -1,0 +1,15 @@
+<h3>Próximos Estrenos</h3>
+<div class="row">
+  @for (movie of upcomingMovies; track movie.id) {
+    <div class="col-md-3 mb-3">
+      <div class="card">
+        <img [src]="'https://image.tmdb.org/t/p/w500' + movie.poster_path" class="card-img-top" alt="{{ movie.title }}">
+        <div class="card-body">
+          <h5 class="card-title">{{ movie.title }}</h5>
+          <p class="card-text">Estreno: {{ movie.release_date }}</p>
+          <p class="card-text">Puntuación: {{ movie.vote_average }}/10</p>
+        </div>
+      </div>
+    </div>
+  }
+</div>

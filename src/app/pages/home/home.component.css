@@ -1,0 +1,63 @@
+<<<<<<< HEAD
+.info-box {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    color: #b39ddb;
+    border: 2px solid rgba(179, 157, 219, 0.7); /* Borde morado */
+    box-shadow: 0px 0px 15px rgba(179, 157, 219, 0.7); /* Resplandor fijo */
+    text-align: center;
+  }
+  
+  .info-box h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .info-box p {
+    font-size: 1rem;
+    opacity: 0.9;
+  }
+  
+  /* Íconos personalizados en los títulos */
+  .info-box h3::before {
+    content: "⭐"; /* Cambia según la categoría */
+    font-size: 1.3rem;
+    margin-right: 8px;
+    display: inline-block;
+    color: #ffd700; /* Color dorado */
+  }
+  
+=======
+.info-box {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    color: #b39ddb;
+    border: 2px solid rgba(179, 157, 219, 0.7); /* Borde morado */
+    box-shadow: 0px 0px 15px rgba(179, 157, 219, 0.7); /* Resplandor fijo */
+    text-align: center;
+  }
+  
+  .info-box h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .info-box p {
+    font-size: 1rem;
+    opacity: 0.9;
+  }
+  
+  /* Íconos personalizados en los títulos */
+  .info-box h3::before {
+    content: "⭐"; /* Cambia según la categoría */
+    font-size: 1.3rem;
+    margin-right: 8px;
+    display: inline-block;
+    color: #ffd700; /* Color dorado */
+  }
+  
+>>>>>>> 9751f11 (Versión Final)
