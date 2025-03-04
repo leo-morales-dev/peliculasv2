@@ -40,7 +40,6 @@ h2 {
     margin-bottom: 30px;
 }
 
-/* Contenedor de las tarjetas con mejor distribución */
 .info-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -49,7 +48,6 @@ h2 {
     justify-items: center;
 }
 
-/* Estilos de las tarjetas */
 .info-box {
     background-color: #222;
     color: #b39ddb;
@@ -68,7 +66,6 @@ h2 {
     box-shadow: 0px 5px 25px rgba(179, 157, 219, 0.8);
 }
 
-/* Ajuste del footer para cubrir todo el ancho */
 .footer-custom {
     color: #b39ddb;
     padding: 30px 0;
